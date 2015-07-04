@@ -14,6 +14,7 @@
 		71385D261B48316700A2E8BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71385D251B48316700A2E8BA /* Images.xcassets */; };
 		71385D291B48316700A2E8BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71385D271B48316700A2E8BA /* LaunchScreen.xib */; };
 		71385D351B48316700A2E8BA /* CALayerPractiseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71385D341B48316700A2E8BA /* CALayerPractiseTests.m */; };
+		71385D431B48322200A2E8BA /* DelegateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71385D421B48322200A2E8BA /* DelegateView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		71385D2E1B48316700A2E8BA /* CALayerPractiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CALayerPractiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71385D331B48316700A2E8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71385D341B48316700A2E8BA /* CALayerPractiseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALayerPractiseTests.m; sourceTree = "<group>"; };
+		71385D411B48322200A2E8BA /* DelegateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateView.h; sourceTree = "<group>"; };
+		71385D421B48322200A2E8BA /* DelegateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				71385D1D1B48316700A2E8BA /* AppDelegate.m */,
 				71385D1F1B48316700A2E8BA /* ViewController.h */,
 				71385D201B48316700A2E8BA /* ViewController.m */,
+				71385D411B48322200A2E8BA /* DelegateView.h */,
+				71385D421B48322200A2E8BA /* DelegateView.m */,
 				71385D221B48316700A2E8BA /* Main.storyboard */,
 				71385D251B48316700A2E8BA /* Images.xcassets */,
 				71385D271B48316700A2E8BA /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				71385D211B48316700A2E8BA /* ViewController.m in Sources */,
 				71385D1E1B48316700A2E8BA /* AppDelegate.m in Sources */,
 				71385D1B1B48316700A2E8BA /* main.m in Sources */,
+				71385D431B48322200A2E8BA /* DelegateView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
